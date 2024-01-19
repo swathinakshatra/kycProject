@@ -23,7 +23,7 @@ class LandingPage2 extends Component {
 
         <div className="frame" id="frame2">
           <div className="side-heading">Non-compliant</div>
-          <li className="point" id="point1">Fraudsters taking over accounts</li>
+          <li className="point" id="point1">Non-compliance can result to penalties</li>
           <li className="point" id="point2">Compliance across countries is complex</li>
           <div className="frame-image-container">
             <div className="frame-image">
