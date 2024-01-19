@@ -1,0 +1,615 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+/* Kyc Landing Page */
+
+
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+
+
+.landing-page-container {
+  position: relative;
+}
+
+.imageContent {
+  width: 40%;
+  height: 120%;
+  z-index: 1;
+  margin-left: 500px;
+  margin-top: 75px;
+  margin-bottom: 300px;
+}
+.content {
+  width: 1500px;
+  height: 1000px;
+  margin-top: 150px;
+  margin-left:100px
+
+}
+
+.title {
+  font-family: manocop, sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(251, 251, 251, 1);
+}
+.innovationContent {
+  font-family: Urbanist;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 10px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(251, 251, 251, 1);
+  width: 867px;
+  height: 204px;
+  top: 170px;
+  left: 85px;
+  
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px; 
+}
+
+
+.paragraph-content {
+  width: 350px;
+  height: 100px;
+  top: 330px;
+  left: 100px;
+  font-family: manocop, sans-serif; 
+  font-size: 10px;
+  font-weight: 50;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+}
+
+
+
+.backgroundImage {
+  position: absolute;
+  top: 80px;
+  left: 2px;
+  width: 70%;
+  height: 59%;
+  background-image: url('D:\kyc-complete-project-main\public\Rectangle 2.png');
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 200px;
+  z-index: 0;
+}
+
+.additionalBackground {
+  position: absolute;
+  top: 600px;
+  width: 100%;
+  height: 80%;
+background: linear-gradient(180deg, #232C33 18.78%, rgba(29, 33, 35, 0.83) 39.81%, #191a1a 98.16%);
+background-color:#232C33 ;
+  z-index: -1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.landingpage-side-content {
+  width: 129px;
+  height: 41px;
+  margin-top: 80px;
+  margin-left: 40px;
+  font-family: Urbanist; 
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 61, 117, 1);
+}
+
+
+
+
+#customNavbar {
+  width: 1920px;
+  height: 106px;
+  background: #ffffff;
+  position: absolute;
+  margin-left: -20px;
+  margin-top: -20px;
+  z-index: 1;
+  
+}
+
+#customRectangle {
+  width: 1150px;
+  height: 90px;
+  top: 40px;
+  margin-left: 60px;
+  border-radius: 10px;
+  background: #FBFBFB;
+  box-shadow: 0px 0px 8px 0px #11010140;
+  position: absolute;
+  z-index: 2; 
+}
+
+#customLogo {
+  width: 150px;
+  height: 90.25px;
+  top: 30px;
+}
+
+#customNavLinks a {
+  color: #333333;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 15px 0px 10px 15px;
+  text-transform: none;
+}
+
+#customSignInButton {
+  width: 140px;
+  height: 50px;
+  top: 20px;
+  right: 210px;
+  padding: 12px 37px 19px 36px;
+  border-radius: 7px;
+  border: 2px solid #107FAB;
+  color: #090a0a;
+  position: absolute;
+  text-transform: none;
+}
+
+#customBookDemoButton {
+  width: 180px;
+  height: 50px;
+  top: 20px;
+  font-size:14px;
+  font-weight: 600;
+  line-height: 10px;
+  right: 20px;
+  /* padding: 12px 45px 19px 45px; */
+  border-radius: 7px;
+  background: #107FAB;
+  color: #FFFFFF;
+  position: absolute;
+  text-transform: none;
+  
+}
+#customBook {
+  width: 150px;
+  height: 40px;
+  top: 100px;
+  left:2px;
+  font-size:8px;
+  font-weight: 600;
+  line-height: 10px;
+  /* padding: 12px 43px 10px 1px; */
+  border-radius: 3px;
+  background: #107FAB;
+  color: #FFFFFF;
+  position: absolute;
+
+}
+#talkToExpert {
+  width: 169px;
+  height: 31px;
+  top: 115px;
+  left: 80px;
+  font-family: Urbanist; 
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 10px;
+  letter-spacing: 0em;
+  text-align: right;
+  
+  position: absolute;
+  color:rgba(16, 127, 171, 1);
+}
+
+
+.trust-heading {
+  width: 750px;
+  height: 80px;
+  margin-top: 120px;
+  margin-left: -600px;
+  font-family: Urbanist;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(251, 251, 251, 1);
+}
+
+.trust-paragraph {
+  width: 450px;
+  height: 40px;
+  margin-bottom: 10px;
+  margin-left: -600px;
+  font-family: Urbanist;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #edf0f2;
+}
+.side-content {
+  width: 450px;
+  height: 40px;
+  margin-top: -29px;
+  margin-left: -676px;
+  font-family: manocop, sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: end;
+  color: #1688d4;
+  font-size: italic;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px; 
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-item {
+  border-radius: 21px;
+  background: rgba(255, 255, 255, 1);
+  overflow: hidden; 
+}
+
+#image1 {
+  background-image: url('D:/kyc-complete-project-main/public/Frame 10.png');
+  background-size: cover;
+  background-position: center;
+  width: 550px;
+  height: 450px;
+  margin-bottom: 60px;
+  margin-left:-120px
+}
+
+#image2 {
+  background-image: url('D:/kyc-complete-project-main/public/Frame 11.png');
+  background-size: cover;
+  background-position: center;
+  width: 600px;
+  height: 220px;
+  margin-bottom: 300px;
+  margin-left: -80px;
+}
+
+#image3 {
+  background-image: url('D:/kyc-complete-project-main/public/Frame 12.png');
+  background-size: cover;
+  background-position: center;
+  width: 600px;
+  height: 220px;
+  margin-left: -620px;
+  margin-top: 300px;
+  margin-bottom: 120px;
+}
+
+
+
+.landing-page-2-container {
+  width: 2005px;
+  height: 2006px;
+  margin-top: 400px;
+  left: -43px;
+  background: rgba(255, 255, 255, 1);
+}
+
+
+
+.landing-page-heading {
+  width: 900px;
+  height: 70px;
+  margin-top: -20px;
+  margin-left: 35px;
+  font-family: Urbanist; 
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: linear-gradient(0deg, #333333, #333333),
+              linear-gradient(0deg, #FF3D75, #FF3D75);
+ 
+}
+
+.heading-landingpage {
+  font-family: Urbanist; 
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FF3D75;
+  margin-left:-990px;
+  margin-top:-77px
+  
+}
+
+
+
+
+.frame {
+  width: 550px;
+  height: 200px;
+  border-radius: 21px;
+}
+
+.side-heading {
+  width: 268px;
+  height: 30px;
+  font-family: Urbanist;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(51, 51, 51, 1);
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+.point {
+  width: 325px;
+  height: 41px;
+  font-family: Urbanist;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(51, 51, 51, 1);
+  margin-top: 1px;
+  margin-left: 37px;
+}
+
+#point1 {
+  margin-top: 25px;
+}
+
+#point2 {
+  margin-top: -14px;
+}
+
+#frame1 {
+  margin-top: 60px;
+  margin-left: 60px;
+  background: rgba(244, 246, 250, 1);
+}
+
+#frame2 {
+  margin-top: -200px;
+  margin-left: 650px;
+  background: rgba(16, 127, 171, 1);
+}
+
+#frame3 {
+  margin-top: 40px;
+  margin-left: 60px;
+  background: rgba(244, 246, 250, 1);
+}
+
+#frame4 {
+  margin-top: -200px;
+  margin-left: 650px;
+  background: rgba(244, 246, 250, 1);
+}
+
+.additional-layout {
+  width: 1150px;
+  height: 800px;
+  margin-top: 100px;
+  margin-left: 60px;
+  border-radius: 21px;
+  background: linear-gradient(0deg, #232E33 0%, rgba(35, 44, 51, 0.99) 33.33%, rgba(35, 44, 51, 0.87) 100%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.frame-image-container {
+  width: 120px;
+  height: 120px;
+  margin-top: -130px;
+  margin-left: auto;
+  margin-right: 40px;
+  border-radius: 100%; 
+  overflow: hidden; 
+  background-color: #ffffff; 
+}
+
+.frame-image img {
+  width: 60%; 
+  height: 70%; 
+  object-fit: cover;
+ 
+  margin-left:23px;
+  margin-top:20px
+}
+
+
+.solutions-heading {
+  width: 104px;
+  height: 41px;
+  margin-top: -750px;
+  margin-left: 570px;
+  font-family: Urbanist;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(182, 153, 247, 1);
+   
+  padding: 10px;
+}
+
+.solutions-description {
+  width: 600px;
+  height: 50px;
+  margin-bottom:-20px;
+  margin-left: 350px;
+  font-family: Urbanist;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  
+ 
+  margin-top: 20px; 
+}
+
+
+
+.text-container {
+  width: 800px;
+  margin-top: 100px;
+  margin-left: 240px;
+ 
+  position: relative;
+}
+
+.text {
+  font-family: Urbanist;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 10px 20px; 
+  color: rgba(251, 251, 251, 1);
+  display: inline-block;
+  margin: 0 25px; 
+}
+
+.horizontal-line {
+  width: 100%;
+  height: 1px;
+  background: rgba(169, 169, 169, 1);
+  position: absolute;
+  bottom: 0;
+}
+
+
+
+.image-layout {
+  width: 480px;
+  height: 280px;
+  margin-top: 80px;
+  margin-left: 623px;
+  padding: 18px 70px 0px 18px;
+  border-radius: 15px;
+  background: rgba(62, 70, 76, 1);
+}
+
+.image-layout img {
+  width: 110%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 22px;
+}
+.custom-text-content {
+  margin-left: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top:-250px
+}
+
+.custom-side-heading {
+  width: 200px;
+  height: 70px;
+  font-family: Urbanist;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(251, 251, 251, 1);
+
+}
+
+.custom-paragraph {
+  width: 250px;
+  height: 70px;
+  font-family: Urbanist;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(251, 251, 251, 1);
+}
+
+
+
+
+

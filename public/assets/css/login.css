@@ -1,0 +1,115 @@
+.cursor {
+  cursor: pointer;
+}
+
+.cursor:hover {
+  color: #5f95c4;
+}
+
+.clearicon {
+  position: absolute;
+  top: 34%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  margin-right :-5px;
+}
+
+.logo {
+  width: 150px;
+}
+
+.twofa {
+  background: url("../images/twofa.gif") no-repeat center center;
+  background-size: 55%;
+  height: 300px;
+}
+
+.check-btn input[type="checkbox"] {
+  display: none;
+}
+.check-btn label {
+  height: 14px;
+  width: 40px;
+  background: #f8f8f8;
+  position: relative;
+  border-radius: 30px;
+}
+.check-btn label::before {
+  content: "";
+  height: 20px;
+  width: 20px;
+  background: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 100%;
+  transform: translateY(-50%);
+  transition: all 0.25s ease;
+}
+.check-btn input[type="checkbox"]:checked + label::before {
+  left: 100%;
+  right: calc(0% - 20px);
+  background: green;
+}
+
+.icon-position-api {
+  position: relative;
+  top: 0.6rem;
+  left: 60rem;
+}
+
+.errorsClass {
+  line-height: 1rem;
+  font-size: 0.875rem;
+}
+.copied-text {
+  font-size: 13px;
+  color: rgba(128, 57, 166, 0.019);
+}
+
+.qrClass {
+  height: 200px;
+  width: fit-content;
+}
+
+.react-tabs__tab--selected {
+  background: #5f95c4 !important;
+  border-color: #aaa;
+  color: white !important;
+  border-radius: 5px 5px 0 0;
+}
+
+.reviewPhotos {
+  width: 450px;
+}
+
+@media screen and (max-width: 431.1px) {
+  .reviewPhotos {
+    width: 250px;
+  }
+}
+
+.kycDetailsHeading {
+  margin-bottom: 0;
+  background: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #4f789c;
+}
+
+.kyc-details-back {
+  font-size: 20px;
+  color: blue;
+  padding-left: 18px;
+  padding-top: 10px;
+}
+
+.form-control:disabled,
+.form-control[readonly] {
+  background-color: rgba(21, 14, 14, 0.19);
+  opacity: 0.85;
+  color: black !important;
+}
