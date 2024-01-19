@@ -1,4 +1,3 @@
-// LandingPage.jsx
 
 import React, { Component } from 'react';
 

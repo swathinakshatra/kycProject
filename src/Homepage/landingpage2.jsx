@@ -1,4 +1,3 @@
-// LandingPage2.jsx
 
 import React, { Component } from 'react';
 
@@ -10,7 +9,7 @@ class LandingPage2 extends Component {
         <h6 className="landing-page-heading">User Verification Process is</h6>
         <h6 className="heading-landingpage">Broken</h6>
 
-        {/* Frames */}
+       
         <div className="frame" id="frame1">
           <div className="side-heading">Customers Drop-off</div>
           <li className="point" id="point1">Non-personalized workflows</li>
@@ -55,10 +54,10 @@ class LandingPage2 extends Component {
           </div>
         </div>
 
-        {/* Additional layout below the frames */}
+       
         <div className="additional-layout"></div>
         
-        {/* Solutions Section */}
+        
         <p className="solutions-heading">Solutions</p>
         <h6 className="solutions-description">Transform your User Journey & Accelerate Growth</h6>
         <div className="text-container">
