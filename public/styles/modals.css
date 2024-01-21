@@ -168,7 +168,7 @@ html {
 
 * {
   padding: 2px;
-  margin: 0px;
+  /* margin: 0px; */
   box-sizing: border-box;
   margin-left: 2;
 }

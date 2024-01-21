@@ -6,7 +6,7 @@ class LandingPage extends Component {
     return (
     <div className="landing-page-container">
       <img
-        src="abstract.png"
+        src="images/abstract.png"
         alt="Abstract Image"
         className="imageContent"
       />

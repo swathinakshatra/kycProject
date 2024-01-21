@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import LandingPage from './landingpage';
 import LandingPage2 from './landingpage2';
+import Frame from './Frame';
+import Frame1 from './Frame1';
+import Frame2 from './Frame2';
+
 
 class NavBar extends Component {
   render() {
@@ -18,9 +22,11 @@ class NavBar extends Component {
           <button className="btn btn-outline-primary" id="customSignInButton">Sign In</button>
           <button className="btn btn-primary" id="customBookDemoButton">Book a Demo</button>
         </div>
-        <div><LandingPage /></div>
+        <div><LandingPage/></div>
         <div><LandingPage2/></div>
-        
+        <div><Frame/></div>
+        <div><Frame1/></div>
+        <div><Frame2/></div>
       </div>
     );
   }
