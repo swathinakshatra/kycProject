@@ -9,9 +9,8 @@ class Frame1 extends Component {
         <p className="content-industries">Industries</p>
         <h6 className="customize-content-solution">Customize Solution with your Business</h6>
 
-        {/* Image Grid */}
         <div className="image-grid-frames">
-          {/* First Row */}
+          
           <div className="image-container-allframes">
             <img src={'images/Frame 23.png'} alt="Image 1" />
           </div>
@@ -26,7 +25,7 @@ class Frame1 extends Component {
           </div>
           </div>
 
-          {/* Second Row */}
+          
           <div className="image-grid-frames">
           <div className="image-container-allframes">
             <img src={'images/Frame 27.png'} alt="Image 5" />
