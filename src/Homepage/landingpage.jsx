@@ -21,13 +21,14 @@ class LandingPage extends Component {
               emerging markets. Digifime 
               is your partner in achieving and maintaining compliance.</p>
             <button className="btn btn-primary" id="customBook">Book a Demo</button>
-            <p id="talkToExpert">Talk To Expert</p>
+            <p id="talkToExpert">Talk To Expert </p>
           </div>
         </div>
       </div>
       <div className="additionalBackground">
       <div className="trust-heading">Why Trust Digifime?</div>
-        <p className="trust-paragraph">Trained on diverse facial variations and ID formats, our robust AI solutions have onboarded over </p><span className="side-content">750 million users.</span>
+        <p className="trust-paragraph">Trained on diverse facial variations and ID formats, our robust AI solutions</p> <p className="trust-paragraphs">have onboarded over </p>
+        <span className="side-content">750 million users.</span>
         <div className="grid-container">
           <div className="grid-item" id="image1"></div>
           <div className="grid-item" id="image2"></div>

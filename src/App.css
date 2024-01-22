@@ -54,59 +54,59 @@
   width: 41%;
   height: 120%;
   z-index: 1;
-  margin-left: 500px;
-  margin-top: 75px;
-  margin-bottom: 300px;
+  margin-left: 31.25rem;
+  margin-top: 4.6875rem; 
+  margin-bottom: 18.75rem; 
 }
-.content {
-  width: 1500px;
-  height: 1000px;
-  margin-top: 150px;
-  margin-left:100px
 
+.content {
+  width: 70%; 
+  height: 50rem; 
+  margin-top: 10%;
+  margin-left: 7.7%; 
 }
 
 .title {
-  font-family: manocop, sans-serif;
-  font-size: 50px;
+  font-family: Urbanist;
+  font-size: 3.125rem; 
   font-style: normal;
   font-weight: 400;
-  line-height: 100px;
+  line-height: 6.25rem; 
   letter-spacing: 0em;
   text-align: left;
   color: rgba(251, 251, 251, 1);
+  margin-left:-0.5rem
 }
+
 .innovationContent {
   font-family: Urbanist;
-  font-size: 50px;
+  font-size: 3.125rem; 
   font-style: italic;
   font-weight: 300;
-  line-height: 10px;
+  line-height: 0.625rem; 
   letter-spacing: 0em;
   text-align: left;
   color: rgba(251, 251, 251, 1);
-  width: 867px;
-  height: 204px;
-  top: 170px;
-  left: 85px;
-  
+  width: 68.75%; 
+  height: 16.875%;
+  top: 12.7rem; 
+  left: 5.3125rem; 
   position: absolute;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 20px; 
+  padding: 1.25rem; 
 }
 
-
 .paragraph-content {
-  width: 350px;
-  height: 100px;
-  top: 330px;
-  left: 100px;
-  font-family: manocop, sans-serif; 
-  font-size: 10px;
-  font-weight: 50;
-  line-height: 20px;
+  width: 23%; 
+  height: 10%; 
+  top: 18rem; 
+  left: 6.25rem;
+  font-family: urbanist; 
+  font-size: 0.6rem; 
+  font-weight: 350;
+  line-height: 1.25rem; 
   letter-spacing: 0em;
   text-align: left;
   color: rgba(255, 255, 255, 1);
@@ -115,25 +115,26 @@
 
 
 
+
 .backgroundImage {
   position: absolute;
-  top: 80px;
-  left: 2px;
-  width: 70%;
-  height: 59%;
-  background-image: url('/src/assets/Rectangle\ 2.png');
+  top:8.5%; 
+  left: 0.8rem; 
+  width: 75%;
+  height: 60%;
+  background-image: url('/src/assets/Rectangle 2.png');
   background-size: cover;
   background-position: center;
-  margin-bottom: 200px;
+  margin-bottom: 10rem;
   z-index: 0;
-
 }
+
 
 .additionalBackground {
   position: absolute;
-  top: 600px;
+  top: 64%;
   width: 100%;
-  height: 80%;
+  height: 87%;
 background: linear-gradient(180deg, #232C33 18.78%, rgba(29, 33, 35, 0.83) 39.81%, #191a1a 98.16%);
 background-color:#232C33 ;
   z-index: -1;
@@ -146,14 +147,14 @@ background-color:#232C33 ;
 
 
 .landingpage-side-content {
-  width: 129px;
-  height: 41px;
-  margin-top: 80px;
-  margin-left: 40px;
-  font-family: Urbanist; 
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 18px;
+  width: 10%;
+  height: 3%;
+  margin-top: 4%;
+  margin-left: 3.5%;
+  font-family: Urbanist;
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.5rem;
   letter-spacing: 0em;
   text-align: left;
   color: rgba(255, 61, 117, 1);
@@ -162,22 +163,23 @@ background-color:#232C33 ;
 
 
 
+
 #customNavbar {
-  width: 1920px;
-  height: 106px;
+  width: 155%; 
+  height: 7.3rem; 
   background: #ffffff;
   position: relative;
-  margin-left: -20px;
-  margin-top: -20px;
+  margin-left: -2%; 
+  margin-top: -2%;
   z-index: 1;
-  
 }
 
+
 #customRectangle {
-  width: 1150px;
-  height: 90px;
-  top: 40px;
-  margin-left: 60px;
+  width: 60.3%; 
+  height: 5rem; 
+  top: 45px;
+  margin-left: 3%;
   border-radius: 10px;
   background: #FBFBFB;
   box-shadow: 0px 0px 8px 0px #11010140;
@@ -186,28 +188,29 @@ background-color:#232C33 ;
 }
 
 #customLogo {
-  width: 150px;
-  height: 90.25px;
-  top: 30px;
+  width: 13%; 
+  height: 5.64%; 
+  margin-left: 0.5%;
+  margin-top:-0.1rem
 }
 
 #customNavLinks a {
   color: #333333;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 0.875rem; 
   font-weight: 500;
-  line-height: 20px;
+  line-height: 1.25rem;
   letter-spacing: 0em;
   text-align: left;
-  margin: 15px 0px 10px 15px;
+  margin: 0.10rem 0 0.25rem 0.85rem; 
   text-transform: none;
 }
 
 #customSignInButton {
-  width: 115px;
-  height: 50px;
-  top: 20px;
-  right: 210px;
+  width: 8.5%; 
+  height: 2.9rem; 
+  margin-top:-5.4%;
+  margin-left: 76.7%;
   padding: 1px 2px 2px 2px;
   border-radius: 5px;
   border: 2px solid #107FAB;
@@ -215,94 +218,114 @@ background-color:#232C33 ;
   position: absolute;
   text-transform: none;
   letter-spacing: 0cm;
- 
 }
 
 #customBookDemoButton {
-  width: 180px;
-  height: 50px;
-  top: 20px;
-  font-size:14px;
+  width: 12%; 
+  height: 2.9rem; 
+  margin-top:-5.4%;
+  font-size: 0.875rem; 
   font-weight: 600;
-  line-height: 10px;
-  right: 20px;
-  /* padding: 12px 45px 19px 45px; */
-  border-radius: 7px;
+  line-height: 1.25rem; 
+  right: 1.0417%;
+  /* padding: 0.75rem 2.8125rem 1.1875rem 2.8125rem; */
+  border-radius: 5px;
   background: #107FAB;
   color: #FFFFFF;
   position: absolute;
   text-transform: none;
-  
+  margin-right:0.6rem
 }
+
 #customBook {
-  width: 150px;
-  height: 40px;
-  top: 100px;
-  left:2px;
-  font-size:8px;
-  font-weight: 600;
-  line-height: 10px;
-  /* padding: 12px 43px 10px 1px; */
+  width: 35%;
+  height: 2.3rem;
+  margin-top: 6.25%;
+  left: 0.1042%;
+  font-size: 0.7rem;
+  font-weight: 500;
+  line-height: 0.8rem;
   border-radius: 3px;
   background: #107FAB;
   color: #FFFFFF;
   position: absolute;
-
+  text-transform: none;
 }
+
 #talkToExpert {
-  width: 169px;
-  height: 31px;
-  top: 115px;
-  left: 80px;
+  width: 30%;
+  height: 2rem;
+  margin-top: 8.8%;
+  margin-left: 36%;
   font-family: Urbanist; 
-  font-size: 12px;
+  font-size: 0.79rem;
   font-weight: 500;
-  line-height: 10px;
+  line-height: 1rem;
   letter-spacing: 0em;
   text-align: right;
-  
   position: absolute;
-  color:rgba(16, 127, 171, 1);
+  color: rgba(16, 127, 171, 1);
 }
+/* #talkToExpert::after {
+  content: '→'; /* Arrow symbol */
+  /* margin-left: -20%; /* Adjust as needed for spacing */
+ /* font-size:1.3rem; */ 
+
+/* } */ 
 
 
 .trust-heading {
-  width: 750px;
-  height: 80px;
-  margin-top: 120px;
-  margin-left: -600px;
+  width: 50%;
+  height: 8rem;
+  margin-top: 7%;
+  margin-left: -40rem;
   font-family: Urbanist;
-  font-size: 35px;
+  font-size: 2rem;
   font-style: italic;
   font-weight: 500;
-  line-height: 50px;
+  line-height: 3.5rem;
   letter-spacing: 0em;
   text-align: center;
   color: rgba(251, 251, 251, 1);
 }
 
 .trust-paragraph {
-  width: 450px;
-  height: 40px;
-  margin-bottom: 10px;
-  margin-left: -600px;
-  font-family: Urbanist;
-  font-size: 14px;
-  font-weight: 100;
-  line-height: 20px;
+  width: 30rem;
+  height: 6%;
+  margin-bottom: 2%;
+  margin-left: -40rem;
+  font-family: Urbanist, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 200;
+  line-height: 1.3rem;
   letter-spacing: 0em;
   text-align: center;
   color: #edf0f2;
 }
+.trust-paragraphs {
+  width: 30rem;
+  height: 6%;
+  margin-bottom: 1%;
+  margin-left: -45rem;
+  font-family: Urbanist, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 200;
+  line-height: 0.3rem;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #edf0f2;
+  margin-top:-1.8rem
+}
+
 .side-content {
-  width: 450px;
-  height: 40px;
-  margin-top: -29px;
-  margin-left: -676px;
-  font-family: manocop, sans-serif;
-  font-size: 15px;
-  font-weight: 100;
-  line-height: 18px;
+  width: 28%;
+  height: 2rem;
+  margin-top: -1.8%;
+  margin-left: -56rem;
+  font-family: Urbanist, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 300;
+  line-height: 1rem;
   letter-spacing: 0em;
   text-align: end;
   color: #1688d4;
@@ -313,13 +336,13 @@ background-color:#232C33 ;
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px; 
+  grid-gap: 1rem;
   align-items: center;
   justify-content: center;
 }
 
 .grid-item {
-  border-radius: 21px;
+  border-radius: 1rem;
   background: rgba(255, 255, 255, 1);
   overflow: hidden; 
 }
@@ -328,249 +351,250 @@ background-color:#232C33 ;
   background-image: url('../src/assets/Frame\ 10.png');
   background-size: cover;
   background-position: center;
-  width: 550px;
-  height: 450px;
-  margin-bottom: 60px;
-  margin-left:-120px
+  width: 35rem;
+  height: 30rem;
+  margin-bottom: 4rem;
+  margin-left:-7rem
 }
 
 #image2 {
   background-image: url('../src/assets/Frame\ 11.png');
   background-size: cover;
   background-position: center;
-  width: 600px;
-  height: 220px;
-  margin-bottom: 300px;
-  margin-left: -80px;
+  width: 38rem;
+  height: 14.4rem;
+  margin-bottom: 20rem;
+  margin-left: -5rem;
 }
 
 #image3 {
   background-image: url('../src/assets/Frame\ 12.png');
   background-size: cover;
   background-position: center;
-  width: 600px;
-  height: 220px;
-  margin-left: -620px;
-  margin-top: 300px;
+  width: 38rem;
+  height: 14.7rem;
+  margin-left: -39rem;
+  margin-top: 58%;
   margin-bottom: 120px;
 }
 
 
 
 .landing-page-2-container {
-  width: 2005px;
-  height: 2006px;
-  margin-top: 400px;
-  left: -43px;
+  width: 100%; 
+  height: 130rem; 
+  margin-top: 24.7%;
+  left: -2%;
   background: rgba(255, 255, 255, 1);
 }
 
 
 
+
+
+
 .landing-page-heading {
-  width: 900px;
-  height: 70px;
-  margin-top: -20px;
-  margin-left: 35px;
+  width: 50%; /* Adjust as needed */
+  height: 4rem; /* Adjust as needed using rem units */
+  margin-top: -2.3%; /* Adjust as needed */
+  margin-left: 3.5%; /* Adjust as needed */
   font-family: Urbanist; 
-  font-size: 35px;
+  font-size: 2rem; /* Adjust as needed using rem units */
   font-weight: 500;
-  line-height: 35px;
+  line-height: 3rem; /* Adjust as needed using rem units */
   letter-spacing: 0em;
   text-align: left;
   color: linear-gradient(0deg, #333333, #333333),
               linear-gradient(0deg, #FF3D75, #FF3D75);
- 
 }
 
 .heading-landingpage {
   font-family: Urbanist; 
-  font-size: 35px;
+  font-size: 2rem; /* Adjust as needed using rem units */
   font-weight: 500;
-  line-height: 35px;
+  line-height: 2rem; /* Adjust as needed using rem units */
   letter-spacing: 0em;
   text-align: center;
   color: #FF3D75;
-  margin-left:-990px;
-  margin-top:-77px
-  
+  margin-left: -47.5%; /* Adjust as needed */
+  margin-top: -3.4%; /* Adjust as needed */
 }
-
 
 
 
 .frame {
-  width: 550px;
-  height: 200px;
-  border-radius: 21px;
+  width: 30%;
+  height: 8%;
+  border-radius: 1rem;
+  
 }
 
 .side-heading {
-  width: 268px;
-  height: 30px;
+  width: 35%;
+  height: 3%;
   font-family: Urbanist;
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: 600;
-  line-height: 29px;
+  line-height: 1rem;
   letter-spacing: 0em;
   text-align: left;
   color: rgba(51, 51, 51, 1);
-  margin-top: 30px;
-  margin-left: 15px;
+  margin-top: 2rem;
+  margin-left: 1rem;
 }
 
 .point {
-  width: 325px;
-  height: 41px;
+  width: 55%;
+  height: 23%;
   font-family: Urbanist;
-  font-size: 14px;
+  font-size: 0.8rem;
   font-weight: 400;
-  line-height: 29px;
+  line-height: 2.8rem;
   letter-spacing: 0em;
   text-align: left;
   color: rgba(51, 51, 51, 1);
-  margin-top: 1px;
-  margin-left: 37px;
+  margin-left: 4%;
 }
 
 #point1 {
-  margin-top: 25px;
+  margin-top: 1rem;
 }
 
 #point2 {
-  margin-top: -14px;
+  margin-top: -0.5rem;
 }
 
 #frame1 {
-  margin-top: 60px;
-  margin-left: 60px;
+  margin-top: 3rem;
+  margin-left: 3%;
   background: rgba(244, 246, 250, 1);
 }
 
 #frame2 {
-  margin-top: -200px;
-  margin-left: 650px;
+  margin-top: -10rem;
+  margin-left: 34%;
   background: rgba(16, 127, 171, 1);
 }
 
 #frame3 {
-  margin-top: 40px;
-  margin-left: 60px;
+  margin-top: 2rem;
+  margin-left: 3%;
   background: rgba(244, 246, 250, 1);
 }
 
 #frame4 {
-  margin-top: -200px;
-  margin-left: 650px;
+  margin-top: -10rem;
+  margin-left: 34%;
   background: rgba(244, 246, 250, 1);
 }
 
 .additional-layout {
-  width: 1150px;
-  height: 800px;
-  margin-top: 100px;
-  margin-left: 60px;
-  border-radius: 21px;
+  width: 60%;
+  height: 38%;
+  margin-top: 4%;
+  margin-left: 4rem;
+  border-radius: 1rem;
   background: linear-gradient(0deg, #232E33 0%, rgba(35, 44, 51, 0.99) 33.33%, rgba(35, 44, 51, 0.87) 100%);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 
 .frame-image-container {
-  width: 120px;
-  height: 120px;
-  margin-top: -130px;
+  width: 7rem;
+  height: 7rem;
+  margin-top: -16%;
   margin-left: auto;
-  margin-right: 40px;
-  border-radius: 100%; 
+  margin-right: 2rem;
+  border-radius: 50%; 
   overflow: hidden; 
   background-color: #ffffff; 
 }
 
 .frame-image img {
-  width: 60%; 
+  width: 63%; 
   height: 70%; 
   object-fit: cover;
  
-  margin-left:23px;
-  margin-top:20px
+  margin-left:1.3rem;
+  margin-top:1.2rem
 }
 
 
 .solutions-heading {
-  width: 104px;
-  height: 41px;
-  margin-top: -750px;
-  margin-left: 570px;
+  width: 5%;
+  height: 2%;
+  margin-top: -39%;
+  margin-left: 30%;
   font-family: Urbanist;
-  font-size: 20px;
+  font-size: 1rem;
   font-weight: 400;
-  line-height: 41px;
+  line-height: 4rem;
   letter-spacing: 0em;
   text-align: center;
   color: rgba(182, 153, 247, 1);
    
-  padding: 10px;
+  padding: 1rem;
 }
 
 .solutions-description {
-  width: 600px;
-  height: 50px;
-  margin-bottom:-20px;
-  margin-left: 350px;
+  width: 29%;
+  height: 2.3%;
+  margin-bottom:-1%;
+  margin-left: 18%;
   font-family: Urbanist;
-  font-size: 40px;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 50px;
+  line-height: 3rem;
   letter-spacing: 0em;
   text-align: center;
   color: rgba(255, 255, 255, 1);
   
  
-  margin-top: 20px; 
+  margin-top: 1%; 
 }
 
 
 
 .text-container {
-  width: 800px;
-  margin-top: 100px;
-  margin-left: 240px;
+  width: 39%;
+  margin-top: 5%;
+  margin-left: 15rem;
  
   position: relative;
 }
 
 .text {
   font-family: Urbanist;
-  font-size: 14px;
+  font-size: 0.755rem;
   font-weight: 300;
-  line-height: 18px;
+  line-height: 1.3rem;
   letter-spacing: 0em;
   text-align: center;
   padding: 10px 20px; 
   color: rgba(251, 251, 251, 1);
   display: inline-block;
-  margin: 0 25px; 
+  margin-left:3rem
 }
 
 .horizontal-line {
   width: 100%;
-  height: 1px;
+  
   background: rgba(169, 169, 169, 1);
   position: absolute;
   bottom: 0;
+  margin-left:1rem
 }
 
 
 
 .image-layout {
-  width: 480px;
-  height: 280px;
-  margin-top: 80px;
+  width: 26%;
+  height: 14.3%;
+  margin-top: 6.5rem;
   margin-left: 623px;
   padding: 18px 70px 0px 18px;
-  border-radius: 15px;
+  border-radius: 1rem;
   background: rgba(62, 70, 76, 1);
 }
 
@@ -581,20 +605,20 @@ background-color:#232C33 ;
   border-radius: 22px;
 }
 .custom-text-content {
-  margin-left: 200px;
+  margin-left: 13%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top:-250px
+  margin-top:-16rem
 }
 
 .custom-side-heading {
-  width: 200px;
-  height: 70px;
+  width: 10%;
+  height: 2%;
   font-family: Urbanist;
-  font-size: 28px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 2rem;
   letter-spacing: 0em;
   text-align: left;
   color: rgba(251, 251, 251, 1);
@@ -602,12 +626,12 @@ background-color:#232C33 ;
 }
 
 .custom-paragraph {
-  width: 250px;
-  height: 70px;
+  width: 13.5%;
+  height: 1%;
   font-family: Urbanist;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 26px;
+  font-size: 0.7rem;
+  font-weight: 200;
+  line-height: 1.3rem;
   letter-spacing: 0em;
   text-align: left;
   color: rgba(251, 251, 251, 1);
@@ -619,60 +643,60 @@ body, html {
   height: 100%;
 }
 .landing-page-container3 {
-  width: 1800px;
-  height: 850px;
-  margin-top: -350px;
-  left: 125px;
+  width: 66%;
+  height: 53rem;
+  margin-top: -27%;
+  margin-left: 1%;
   background-color: #232E33; 
  
 
 }
 .content-simple{
-  width: 50px;
-  height: 30px;
-  margin-top: 50px;
-  margin-left: 50px;
+  width: 3%;
+  height: 2rem;
+  margin-top: 4%;
+  margin-left: 4%;
   font-family: Urbanist;
-  font-size: 14px;
+  font-size: 0.95rem;
   font-weight: 500;
-  line-height: 20px;
+  line-height: 2rem;
   letter-spacing: 0em;
   text-align: left;
   color: rgba(16, 127, 171, 1);
 }
 
 .content-verification-made {
-  width: 900px;
-  height: 80px;
-  margin-top: -14px;
-  margin-left: 50px;
+  width: 50%;
+  height: 4rem;
+  margin-top: -1%;
+  margin-left: 4%;
   font-family: Urbanist;
-  font-size: 35px;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 40px;
+  line-height: 2rem;
   letter-spacing: 0em;
   text-align: left;
   color: rgba(251, 251, 251, 1);
 }
 .user-verification {
-  margin-top: 32px;
+  margin-top: 2%;
   color: rgba(251, 251, 251, 1);
-  margin-left: 80px;
-  font-size: 20px;
+  margin-left: 3rem;
+  font-size: 1.2rem;
   font-weight: 400;
-  line-height: 40px;
-  margin-left:50px
+  line-height: 2rem;
+  margin-left:3.3rem
 }
 
 .user-verification-heading {
-  margin-bottom: -39px;
+  margin-bottom: -3%;
 }
 
 .user-verification-row {
   display: flex;
-  margin-bottom: 10px;
-  margin-left:500px
+  margin-bottom: 1%;
+  margin-left:40%
 }
 
 .user-verification-point {
@@ -691,58 +715,53 @@ body, html {
 }
 
 .user-verification-point img {
-  width: 17px;
-  height: 17px;
-  margin-right: 10px;
+  width: 1rem;
+  height: rem;
+  margin-right: 2%;
 }
 .image-line {
-  width: 65%; 
+  width: 86%; 
   height: auto; 
   display: block;
-  margin-left:55px
+  margin-left:4%
   
 }
 .platform-best-global {
  
  
-  width: 360px;
+  width: 28%;
   color: rgba(251, 251, 251, 1);
   font-family: Urbanist;
-  font-size: 10px;
+  font-size: 0.6rem;
   font-weight: 250;
-  line-height: 20px;
+  line-height: 1rem;
   letter-spacing: 0em;
  
- margin-left:45px;
+ margin-left:4.5%;
  
-  margin-top:30px
+  margin-top:3%
 }
 .demo-book {
-  width: 120px;
-  height: 40px;
-  padding: 12px 20px 19px 20px;
-  border-radius: 5px;
-  background: rgba(16, 127, 171, 1);
-  color: #fff;
-  font-family: Urbanist;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 16px;   
-  letter-spacing: 0em;
-  text-align: center;
-  cursor: pointer;
-  display: inline-block;
-  transition: background 0.3s ease;
-  margin-top:30px;
-  text-transform:none
+  width: 5.8%;
+  height: 2.3rem;
+  margin-top: 4%;
+  margin-left: -17%;
+  font-size: 0.7rem;
+  font-weight: 500;
+  line-height: 0.8rem;
+  border-radius: 3px;
+  background: #107FAB;
+  color: #FFFFFF;
+  position: absolute;
+  text-transform: none;
 }
 
 .demo-book:hover {
   background: #0c5b7e;
 }
 .customise-background-layout {
-  width: 2105px;
-  height: 1200px;
+  width: 70%;
+  height: 73rem;
   margin-top: -10px;
   left: -55px;
   background: rgba(255, 255, 255, 1);
@@ -754,13 +773,13 @@ body, html {
   display: flex;
   flex-wrap: wrap;
  
-   margin-left:70px
+   margin-left:6%
 }
 
 .image-container-allframes {
-  width: 280px;
-  height: 280px;
-  border-radius: 7px;
+  width: 22%;
+  height: 23%;
+  border-radius: 1rem;
   overflow: hidden;
   margin: 2px; 
 }
@@ -840,6 +859,14 @@ body, html {
   color:rgba(255, 255, 255, 1);
 
 }
+.header-image {
+  width: 754px;
+  height: 697px;
+  top: 65px;
+  left: 911px;
+  
+}
+
 
 
 
