@@ -973,29 +973,33 @@ body, html {
   margin-bottom:-2rem
 }
 .btn-btn {
-  width: 6.2rem;
-  height: 2.35rem;
-  margin-top: 1.4rem;
-  left: 22.35rem;
-  border:#107FAB;
-  border-radius: 0.2rem;
-  background: rgba(16, 127, 171, 1);
- margin-left:-8%;
-  font-size: 1.5rem; 
+  width: 5.8%;
+  height: 2.3rem;
+  margin-top:1.2rem;
+  margin-left: -6%;
+  font-size: 0.7rem;
+  font-weight: 500;
+  line-height: 0.8rem;
+  border-radius: 3px;
+  background: #107FAB;
+  color: #FFFFFF;
+  position: absolute;
+  text-transform: none;
+  border: #107FAB;
 }
 
 #submitText {
-  width: 6.3rem;
+  width: 6rem;
   height: 1rem;
 
   font-family: Urbanist;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: 500;
   line-height: 2rem;
   letter-spacing: 0em;
   text-align: center;
   color: #fff;
-  margin-top:5.4%;
+  padding-top:-4px;
 }
 .product-heading {
   width: 4rem;
