@@ -40,7 +40,7 @@
 
 
 
-/* Kyc Landing Page */
+
 
 
 @import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
@@ -399,9 +399,9 @@
   margin-top: -2.3%; /* Adjust as needed */
   margin-left: 3.5%; /* Adjust as needed */
   font-family: Urbanist; 
-  font-size: 2rem; /* Adjust as needed using rem units */
+  font-size: 2rem; 
   font-weight: 500;
-  line-height: 3rem; /* Adjust as needed using rem units */
+  line-height: 3rem; 
   letter-spacing: 0em;
   text-align: left;
   color: linear-gradient(0deg, #333333, #333333),
@@ -410,14 +410,14 @@
 
 .heading-landingpage {
   font-family: Urbanist; 
-  font-size: 2rem; /* Adjust as needed using rem units */
+  font-size: 2rem; 
   font-weight: 500;
-  line-height: 2rem; /* Adjust as needed using rem units */
+  line-height: 2rem;
   letter-spacing: 0em;
   text-align: center;
   color: #FF3D75;
-  margin-left: -47.5%; /* Adjust as needed */
-  margin-top: -3.4%; /* Adjust as needed */
+  margin-left: -47.5%; 
+  margin-top: -3.4%; 
 }
 
 
@@ -808,7 +808,7 @@ body, html {
 }
 .footer-background-layout {
   width: 89%;
-  height: 89%;
+  height: 85%;
   margin-top: -28%;
   margin-left: 4%;
   background: linear-gradient(358.99deg, #052431 31.11%, rgba(11, 38, 49, 0.758819) 46.7%, rgba(5, 37, 49, 0.34) 99.07%);
@@ -817,7 +817,7 @@ body, html {
 .content-industries{
   width: 5rem;
   height: 1rem;
-  margin-top: 3%;
+  margin-top: 5.5%;
   margin-left: 4.5%;
   font-family: Urbanist;
   font-size: 0.8rem;
@@ -831,7 +831,7 @@ body, html {
 .customize-content-solution {
   width: 45%;
   height: 5rem;
-  margin-top: -14px;
+  margin-top: -13px;
   margin-left: 4%;
   font-family: Urbanist;
   font-size: 2rem;
@@ -859,13 +859,275 @@ body, html {
   color:rgba(255, 255, 255, 1);
 
 }
-.header-image {
-  width: 754px;
-  height: 697px;
-  top: 65px;
-  left: 911px;
+.img-header-images {
+  width: 100%;
+  height: 90%;
+  margin-top: -7%;
+  margin-left: 28%;
   
 }
+.check-tick-image {
+  width: 4%;
+  height: 3.8%;
+  margin-top: -17.9%;
+  margin-left: 3%;
+  
+}
+#footerbutton {
+  width: 6%;
+  height: 2.3rem;
+  margin-top: -9%;
+  margin-left:3%;
+  font-size: 0.7rem;
+  font-weight: 500;
+  line-height: 0.8rem;
+  border-radius: 0.2rem;
+  background: #107FAB;
+  color: #FFFFFF;
+  position: absolute;
+  text-transform: none;
+}
+.content-live{
+  width: 7rem;
+  height: 1rem;
+  margin-top: -10.5%;
+  margin-left: 6%;
+  font-family: Urbanist;
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color:rgba(228, 228, 228, 1);
+
+}
+.content-workflow{
+  width: 10rem;
+  height: 1rem;
+  margin-top: -4.9%;
+  margin-left: 20%;
+  font-family: Urbanist;
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color:rgba(228, 228, 228, 1);
+
+}
+.check-tick-images {
+  width: 4%;
+  height: 3.8%;
+  margin-top: -6.5%;
+  margin-left: 17%;
+  
+}
+#footerLogo{
+  width: 20%; 
+  height: 19%; 
+  margin-left: 0.5%;
+  margin-top:5rem
+}
+.content-footer-friction {
+  margin-top: 1%;
+  color: rgba(51, 51, 51, 1);
+  margin-left: 3rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 2rem;
+  margin-left:3.3rem;
+  font-family:Urbanist;
+}
+.signup-content{
+  margin-top: 6%;
+  color: rgba(51, 51, 51, 1);
+  margin-left: 3rem;
+  font-size: 1rem;
+  font-weight: 600; 
+  line-height: 2rem;
+  margin-left:3.3rem;
+  font-family:Urbanist;
+  margin-bottom :-0.5%;
+
+}
+.emailInput {
+  width: 28%;
+  height: 10%;
+  margin-top: 1%;
+  margin-left: 3%;
+  padding: 2% 2.2% 1.3% 2%;
+  border-radius: 0.3rem;
+  border: 2px solid rgba(16, 127, 171, 1);
+  color: rgba(16, 127, 171, 1);
+  color: #ffffff;
+  font-size: 1rem;
+  
+}
+
+
+.emailInput::placeholder {
+  color:rgba(169, 169, 169, 1);
+  
+  opacity: 0.7;
+  font-size: 1rem; 
+  margin-bottom:-2rem
+}
+.btn-btn {
+  width: 6.2rem;
+  height: 2.35rem;
+  margin-top: 1.4rem;
+  left: 22.35rem;
+  border:#107FAB;
+  border-radius: 0.2rem;
+  background: rgba(16, 127, 171, 1);
+ margin-left:-8%;
+  font-size: 1.5rem; 
+}
+
+#submitText {
+  width: 6.3rem;
+  height: 1rem;
+
+  font-family: Urbanist;
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 2rem;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+  margin-top:5.4%;
+}
+.product-heading {
+  width: 4rem;
+  height: 2rem;
+  margin-top: -20rem;
+  margin-left: 40rem;
+  font-family: Urbanist;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 4.1rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(51, 51, 51, 1);
+  display :flex;
+   
+}
+
+.product-row {
+  width: 10rem;
+  height: 0.7rem;
+  margin-top: 2rem;
+  margin-left: 40.1rem;
+  font-family: Urbanist;
+  font-size: 0.7rem;
+  font-weight: 400;
+  line-height: 0.79rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(51, 51, 51, 1);
+  
+  
+}
+.industries-heading {
+  width: 4rem;
+  height: 2rem;
+  margin-top: -16.5rem;
+  margin-left: 55rem;
+  font-family: Urbanist;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 4.1rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(51, 51, 51, 1);
+  display :flex;
+   
+}
+
+.industries-row {
+  width: 10rem;
+  height: 0.7rem;
+  margin-top: 2rem;
+  margin-left: 55rem;
+  font-family: Urbanist;
+  font-size: 0.7rem;
+  font-weight: 400;
+  line-height: 0.79rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(51, 51, 51, 1);
+  
+  
+}
+.resources-heading {
+  width: 4rem;
+  height: 2rem;
+  margin-top: -19rem;
+  margin-left: 68rem;
+  font-family: Urbanist;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 4.1rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(51, 51, 51, 1);
+  display :flex;
+   
+}
+
+.resources-row {
+  width: 10rem;
+  height: 0.7rem;
+  margin-top: 2rem;
+  margin-left: 68rem;
+  font-family: Urbanist;
+  font-size: 0.7rem;
+  font-weight: 400;
+  line-height: 0.79rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(51, 51, 51, 1);
+  
+  
+}
+.company-heading {
+  width: 4rem;
+  height: 2rem;
+  margin-top: -1rem;
+  margin-left: 68rem;
+  font-family: Urbanist;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 4.1rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(51, 51, 51, 1);
+  display :flex;
+   
+}
+
+.company-row {
+  width: 10rem;
+  height: 0.7rem;
+  margin-top: 2rem;
+  margin-left: 68rem;
+  font-family: Urbanist;
+  font-size: 0.7rem;
+  font-weight: 400;
+  line-height: 0.79rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(51, 51, 51, 1);
+  
+  
+}
+
+
+
+
+
+
+
 
 
 

@@ -4,15 +4,15 @@ class Frame extends Component {
   state = {};
   render() {
     return (
-        <div className="landing-page-container3">
+      <div className="landing-page-container3">
         <p className="content-simple">Products</p>
         <h6 className="content-verification-made">End-to-End Verification Made Simple</h6>
 
-       
+        {/* User Verification Section */}
         <div className="user-verification">
           <p className="user-verification-heading">User Verification</p>
 
-         
+          {/* Rows of Points */}
           <div className="user-verification-row">
             <div className="user-verification-point">
               <img src={'images/icons/Artboard 1 6.png'} alt="Icon 1" />
@@ -59,6 +59,7 @@ class Frame extends Component {
   <div className="user-verification">
           <p className="user-verification-heading">AML Screening</p>
 
+          {/* Rows of Points */}
           <div className="user-verification-row">
             <div className="user-verification-point">
               <img src={'images/icons/Artboard 1 6.png'} alt="Icon 1" />
